@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      {% block head_title %} {% endblock %} | Mucky
+    </title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <h1>MuyPicky.com</h1>
+
+    <div class="container">
+      {% block content %}
+        <h2>hello dere</h2>
+      {% endblock content%}
+    </div>
+
+  </body>
+</html>
