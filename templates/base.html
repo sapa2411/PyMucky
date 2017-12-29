@@ -5,18 +5,20 @@
     <title>
       {% block head_title %} {% endblock %} | Mucky
     </title>
+    {% include 'snippets/css.html' %}
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
-    <h1>MuyPicky.com</h1>
+    {% include 'snippets/nav.html' %}
+
 
     <div class="container">
+      <h1>MuyPicky.com</h1>
       {% block content %}
         <h2>hello dere</h2>
       {% endblock content%}
     </div>
 
+
+    {% include 'snippets/js.html' %}
   </body>
 </html>
