@@ -1,0 +1,17 @@
+{%extends "base.html" %}
+
+
+{% block head_title %} Add Restaurant {% endblock %}
+
+{% block content%}
+{% if form.errors %}
+  {{ form.errors }}
+{% endif %}
+<h1>Add Restaurant </h1>
+<form class="" method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" name="button">Save</button>
+</form>
+
+{% endblock %}

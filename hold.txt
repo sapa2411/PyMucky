@@ -1,0 +1,5 @@
+username: killaCam
+email: admin@admin.com
+password: administrator
+
+http://api.whatsapp.com/send?phone=+23409024195188 
