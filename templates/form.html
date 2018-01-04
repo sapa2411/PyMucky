@@ -8,7 +8,6 @@
 {% if form.errors %}
   {{ form.errors }}
 {% endif %}
-<h1>Add Restaurant </h1>
 <form class="" method="post">
   {% csrf_token %}
   {{ form.as_p }}

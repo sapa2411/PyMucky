@@ -35,5 +35,6 @@ urlpatterns = [
     url(r'^login/$', LoginView.as_view(), name='login'),
     url(r'^contact/$', ContactView.as_view(), name='contact'),
     url(r'^about/$', AboutView.as_view(), name='about'),
-    url(r'^restaurants/', include('resturants.urls'))
+    url(r'^restaurants/', include('resturants.urls')),
+    url(r'^items/', include('menus.urls', namespace='menus')),
 ]

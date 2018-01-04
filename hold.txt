@@ -2,4 +2,13 @@ username: killaCam
 email: admin@admin.com
 password: administrator
 
-http://api.whatsapp.com/send?phone=+23409024195188 
+http://api.whatsapp.com/send?phone=+23409024195188
+
+http://docs.python-requests.org/en/master/
+
+Bit bucket
+email: tech-team@envelopedatasolutions.com
+username: EDS-Tech
+tech-team@2018
+
+Team name: mvp_devs
